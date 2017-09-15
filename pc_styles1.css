@@ -7,12 +7,11 @@
 }
 
 /*
-   New Perspectives on HTML5 and CSS3, 7th Edition
-   Tutorial 3
-   Tutorial Case
-   
+   Exercise 05_03
+   Author: Patrick J Clawson, M.Ed.
+   Date:   9.15.17
    Typography and Color Styles for pc_home.html
-   
+
    Filename: pc_styles1.css
 
 */
@@ -21,11 +20,11 @@
 
 html {
    background-color: rgb(186, 136, 81);
-   font-family: Verdana, Geneva, Arial, sans-serif; 	
+   font-family: Verdana, Geneva, Arial, sans-serif;
 }
 
 body {
-   background-color: rgb(138, 97, 51);  
+   background-color: rgb(138, 97, 51);
 }
 
 
@@ -37,17 +36,17 @@ nav.horizontalNavigation a {
    font-size: 1.4em;
    line-height: 1.8em;
    text-align: center;
-}  
+}
 
-nav.horizontalNavigation a:link, 
+nav.horizontalNavigation a:link,
 nav.horizontalNavigation a:visited {
    color: rgb(239, 220, 156);
 }
 
-nav.horizontalNavigation a:hover, 
+nav.horizontalNavigation a:hover,
 nav.horizontalNavigation a:active {
    background-color: rgb(71, 52, 29);
-}   
+}
 
 
 /* Left Column Paragraph Styles */
@@ -81,12 +80,12 @@ nav.verticalNavigation ul {
    line-height: 2em;
 }
 
-nav.verticalNavigation a:link, 
+nav.verticalNavigation a:link,
 nav.verticalNavigation a:visited {
    color: rgb(186, 186, 156);
 }
 
-nav.verticalNavigation a:hover, 
+nav.verticalNavigation a:hover,
 nav.verticalNavigation a:active {
    text-decoration: underline;
 }
@@ -96,5 +95,4 @@ nav.verticalNavigation a:active {
 section#contactInfo p {
    line-height: 1.4em;
    margin: 1em;
-}   
-
+}
